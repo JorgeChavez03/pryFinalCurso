@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<app-menu></app-menu>
+
+<div class="myContenedor">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-3">
+                <app-datos></app-datos>
+            </div>
+            <div class="col-lg-9 bg-light">
+                <br>
+                <div class="bg-secondary">
+                    <app-peliculas></app-peliculas>
+                </div>
+                <br>
+                <div class="bg-secondary">
+                    <app-actores></app-actores>
+                </div>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="myFooter">
+    <app-footer></app-footer>
+</div>

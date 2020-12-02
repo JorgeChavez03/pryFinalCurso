@@ -1,0 +1,12 @@
+.myBtn{
+    margin-right: 15px;
+}
+.navbar-collapse ul li a{
+    color:white;
+    font-size: 3ex;
+}
+
+a:hover{
+    background-color: #343A40;
+    color: white;
+}
